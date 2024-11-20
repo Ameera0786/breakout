@@ -189,7 +189,9 @@ window.addEventListener("keydown", (event) => {
             }
         }
     }
-
+    if (event.key == " "){
+        location.reload()
+    }
 })
 
 
